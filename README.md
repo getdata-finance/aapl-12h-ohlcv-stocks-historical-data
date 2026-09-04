@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `AAPL_12h.csv` (142 rows, `2026-02-09` -> `2026-09-01`, 8.51 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aapl)** — **3,169** `12h` rows (full `1m`: 640,914), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
+> **Sample on GitHub** · `AAPL_12h.csv` (77 rows, `2026-05-13` -> `2026-09-01`, 8.44 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/aapl)** — **3,169** `12h` rows (full `1m`: 636,557), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Apple · US stocks | Apple · US stocks |
 | Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 12h rows | 142 | **3,169** |
-| Size | 8.51 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aapl) |
-| Period | `2026-02-09` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
+| 12h rows | 77 | **3,169** |
+| Size | 8.44 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/aapl) |
+| Period | `2026-05-13` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
 | File | `AAPL_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/aapl) |
 | Coverage report | — | [AAPL coverage](https://getdata.finance/coverage/aapl) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AAPL_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-09T12:00:00+00:00 | 277.92 | 277.92 | 271.59 | 274.45 | 61551 |
-| 2026-02-10T12:00:00+00:00 | 274.45 | 275.23 | 272.8 | 273.57 | 54203 |
-| 2026-02-11T12:00:00+00:00 | 273.57 | 280.06 | 273.57 | 275.41 | 76644 |
-| 2026-02-12T12:00:00+00:00 | 275.41 | 275.44 | 260.04 | 261.35 | 99496 |
-| 2026-02-13T12:00:00+00:00 | 261.35 | 261.9 | 255.32 | 255.57 | 66265 |
+| 2026-05-13T12:00:00+00:00 | 295.82 | 301.78 | 294.2 | 299.82 | 51840.60254 |
+| 2026-05-14T12:00:00+00:00 | 299.82 | 301.13 | 296.26 | 299.03 | 47777 |
+| 2026-05-15T12:00:00+00:00 | 299.03 | 304.08 | 297.38 | 301.12 | 54831 |
+| 2026-05-18T12:00:00+00:00 | 301.12 | 301.4 | 295.77 | 298.79 | 95313 |
+| 2026-05-19T12:00:00+00:00 | 298.79 | 301.32 | 297.07 | 299.96 | 68431 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-26T12:00:00+00:00 | 309.8 | 314.95 | 308.68 | 314.44 | 24544 |
-| 2026-08-27T12:00:00+00:00 | 313.49 | 315.2 | 309.29 | 314.62 | 39788 |
-| 2026-08-28T12:00:00+00:00 | 314.62 | 322.24 | 314.62 | 319.51 | 57906 |
-| 2026-08-31T12:00:00+00:00 | 319.51 | 321.09 | 312.9 | 317 | 63272 |
-| 2026-09-01T12:00:00+00:00 | 317 | 327.09 | 314.58 | 325.08 | 73694 |
+| 2026-08-26T12:00:00+00:00 | 309.79 | 315.35 | 308.67 | 313.56 | 38597 |
+| 2026-08-27T12:00:00+00:00 | 313.56 | 314.97 | 309.36 | 314.33 | 58431 |
+| 2026-08-28T12:00:00+00:00 | 314.33 | 321.95 | 314.33 | 319.22 | 57906 |
+| 2026-08-31T12:00:00+00:00 | 319.22 | 320.8 | 312.61 | 316.71 | 63272 |
+| 2026-09-01T12:00:00+00:00 | 316.71 | 326.8 | 314.29 | 324.79 | 73694 |
 
 ## Schema
 
